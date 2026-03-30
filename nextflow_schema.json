@@ -44,6 +44,20 @@
             }
         },
 
+        "skip_tools": {
+            "title": "Skip Tools",
+            "type": "object",
+            "description": "This section can be used to disable certain tools in the pipeline",
+            "default": "",
+            "fa_icon": "fas fa-forward",
+            "properties": {
+                "skip_fastqc": {
+                    "type": "boolean",
+                    "description": "Skip FastQC"
+                }
+            }
+        },
+
         "spaceranger_options": {
             "title": "Space Ranger options",
             "type": "object",
